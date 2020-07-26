@@ -62,9 +62,12 @@ p{
 @media (min-width: 992px) {
 	.col-ld-1, .col-ld-2, .col-ld-3, .col-ld-4, .col-ld-5, .col-ld-6, .col-ld-7,
 	.col-ld-8, .col-ld-9, .col-ld-10, .col-ld-11, .col-ld-12{
-		margin-left: 10px;
+		position: relative;
+		height: 200px;
+		margin-right: 0.9%;
+		background-color: gray;
 		float: left;
-		
+
 	}
 	.col-ld-1{
 		width: 8.33%;
@@ -76,7 +79,8 @@ p{
 		width: 25%;
 	}
 	.col-ld-4{
-		width: 33%;
+		/* width: 33.33%; */
+         width: 32%; /* Is this a hack or legit? */
 	}
 	.col-ld-5{
 		width: 41.66%;
@@ -108,8 +112,11 @@ p{
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7,
 	.col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
-		margin-left: 10px;
+		position: relative;
 		float: left;
+		background-color: gray;
+		margin-right: 1%;
+
 	}
 	.col-md-1{
 		width: 8.33%;
@@ -127,7 +134,8 @@ p{
 		width: 41.66%;
 	}
 	.col-md-6{
-		width: 50%;
+		 /* width: 50%; */
+        width: 49%; /* Is this a hack or legit? */
 	}
 	.col-md-7{
 		width: 58.33%;
@@ -154,8 +162,12 @@ p{
 @media (max-width: 767px) {
 	.col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5, .col-sd-6, .col-sd-7,
 	.col-sd-8, .col-sd-9, .col-sd-10, .col-sd-11, .col-sd-12{
-		margin-left: 10px;
+		position: relative;
 		float: left;
+		background-color: gray;
+		margin-right: 1%;
+		margin-top: 1%;
+
 	}
 	.col-sd-1{
 		width: 8.33%;
